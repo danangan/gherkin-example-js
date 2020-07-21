@@ -1,0 +1,11 @@
+{
+  "name": "gherkin-example-js",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:danangan/gherkin-example-js.git",
+  "author": "Danang Nur (danang.arbansa@gmail.com)",
+  "license": "MIT",
+  "devDependencies": {
+    "cucumber": "^6.0.5"
+  }
+}
