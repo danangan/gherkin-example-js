@@ -11,18 +11,21 @@ function isItFriday(today) {
 }
 
 Given("today is Sunday", function () {
+  // Providing fixture
   this.today = "Sunday";
 });
 
 When("I ask whether it's Friday yet", function () {
+  // Act
   this.actualAnswer = isItFriday(this.today);
 });
 
 Then("I should be told {string}", function (expectedAnswer) {
+  // assert
   assert.equal(this.actualAnswer, expectedAnswer);
 });
 
 Given("today is Friday", function () {
-  // Write code here that turns the phrase above into concrete actions
+  // Providing another fixture
   this.today = "Friday";
 });
